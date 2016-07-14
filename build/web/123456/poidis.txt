@@ -1,0 +1,18 @@
+//Poisson distribution
+//Fitting poisson distribution and finding theoretical frequency
+//step 1 find mean for given x(i) and f(i)
+//step 2 find probability for p(x=x(i))
+//step 3 multiply the probability with the corresponding frequency p(x-x(i)) * f(i)
+//the result of step 3 is the Theoretical frequency display it
+
+function [theof] = poidis(x,f)
+    m = meanxf(x,f)
+    
+    for i=1:length(x)
+    pro(i) = (((%e^-m)*(m^x(i))/factorial (x(i))))
+end
+
+for i=1:length(x)
+     theof(i) = pro(i) * f(i)
+end
+endfunction

@@ -1,0 +1,37 @@
+//Correlation
+//Karl-pearsons measure of correlation
+//correlarion (r) = ((summation(x*y))/(sqrt(summation(x^2))*(summation(y^2))))
+
+function [r] = corre(x,y)
+    
+    mx = mean(x)
+    my = mean(y)
+    
+        sumbarxsq = 0
+        sumbarysq = 0
+        sumbarxy = 0
+    
+    for i=1:length(x)
+        barx(i) = x(i) - mx
+        bary(i) = y(i) - my
+    end
+    
+    for i=1:length(x)
+        barxsq(i) = barx(i)^2
+        barysq(i) = bary(i)^2
+        barxy(i) = barx(i)*bary(i)
+    end
+    
+    for i=1:length(x)
+        sumbarxsq = sumbarxsq + barxsq(i)
+        sumbarysq = sumbarysq + barysq(i)
+        sumbarxy = sumbarxy + barxy(i)
+    end
+    
+    sqrtx = sqrt(sumbarxsq)
+    sqrty = sqrt(sumbarysq)
+    
+    deno = sqrtx *sqrty
+    
+    r = sumbarxy / deno
+endfunction

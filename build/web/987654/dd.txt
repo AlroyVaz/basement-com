@@ -1,0 +1,6 @@
+INSERT INTO auto.factory (code, `type`, supervisor, location, employee_no, capacity, `output`, maintenance) 
+	VALUES ('111', 'Car', 'Alroy', 'Mumbai', 100, 20000, 13000, 100000)
+INSERT INTO auto.factory (code, `type`, supervisor, location, employee_no, capacity, `output`, maintenance) 
+	VALUES ('222', 'SUV', 'Thomson', 'Pune', 300, 30000, 18000, 120000)
+INSERT INTO auto.factory (code, `type`, supervisor, location, employee_no, capacity, `output`, maintenance) 
+	VALUES ('333', 'Scotter', 'Aakash', 'Goa', 200, 15000, 12500, 80000)

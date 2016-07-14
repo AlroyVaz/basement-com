@@ -1,0 +1,92 @@
+?xml version="1.0" encoding="UTF-8"?>
+
+<human_resource
+xmlns:xsi=""
+xsi:noNamespaceSchemaLocation="employee.xsd"
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+	<employee>
+		<code>223365</code>
+		<location>Mumbai</location>
+		<name>Alto</name>
+		<designation>supervisior</designation>
+		<salary>300000</salary>
+	</employee>
+	<employee>
+		<code>223366</code>
+		<location>Pune</location>
+		<name>Thomson Miranda</name>
+		<designation>supervisior</designation>
+		<salary>800000</salary>
+	</employee>
+	<employee>
+		<code>223367</code>
+		<location>Goa</location>
+		<name>Aakash</name>
+		<designation>supervisior</designation>
+		<salary>60000</salary>
+	</employee>
+	<employee>
+		<code>223356</code>
+		<location>Mumbai</location>
+		<name>Reeve</name>
+		<designation>Accountant</designation>
+		<salary>100000</salary>
+	</employee>
+	<employee>
+		<code>223356</code>
+		<location>Pune</location>
+		<name>Bryceleen</name>
+		<designation>Accountant</designation>
+		<salary>80000</salary>
+	</employee>
+	<employee>
+		<code>223356</code>
+		<location>Goa</location>
+		<name>Priston</name>
+		<designation>Engineer</designation>
+		<salary>30000</salary>
+	</employee>
+	<employee>
+		<code>223357</code>
+		<location>Mumbai</location>
+		<name>Shawn</name>
+		<designation>Accountant</designation>
+		<salary>20000</salary>
+	</employee>
+	<employee>
+		<code>223356</code>
+		<location>Pune</location>
+		<name>Sheldon</name>
+		<designation>Supervisior</designation>
+		<salary>100000</salary>
+	</employee>
+	<employee>
+		<code>223356</code>
+		<location>Goa</location>
+		<name>Ron</name>
+		<designation>Accountant</designation>
+		<salary>20000</salary>
+	</employee>
+	<employee>
+		<code>223356</code>
+		<location>Mumbai</location>
+		<name>Jijin</name>
+		<designation>Engineer</designation>
+		<salary>35000</salary>
+	</employee>
+	<employee>
+		<code>223356</code>
+		<location>Mumbai</location>
+		<name>Oneil</name>
+		<designation>Engineer</designation>
+		<salary>40000</salary>
+	</employee>
+	<employee>
+		<code>223356</code>
+		<location>Pune</location>
+		<name>Soham</name>
+		<designation>Accountant</designation>
+		<salary>60000</salary>
+	</employee>
+
+</human_resource>
